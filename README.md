@@ -8,7 +8,9 @@ Une application Android minimaliste et responsive permettant d'afficher les têt
 
 | Accueil | Favoris |
 |--------|--------|
-| ![Home](screenshots/home.png) | ![Favorites](screenshots/favorites.png) |
+| ![Home](<img width="329" alt="image" src="https://github.com/user-attachments/assets/483ba23f-89cc-42de-a246-aab8aac6db38" />
+) | ![Favorites](<img width="320" alt="image" src="https://github.com/user-attachments/assets/2597e3da-7070-424c-972f-11db4f364712" />
+) |
 
 ---
 

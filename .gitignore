@@ -1,0 +1,80 @@
+# Android / IntelliJ
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Kotlin
+*.class
+*.jar
+*.war
+*.ear
+
+# Android Studio & JetBrains
+.idea
+*.ipr
+*.iws
+*.bak
+
+# Logs
+*.log
+
+# OS spécifiques
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+*.exe
+*.dll
+*.bat
+*.msi
+
+# Gradle Wrapper
+/gradle/wrapper/gradle-wrapper.properties
+/gradle/wrapper/gradle-wrapper.jar
+
+# Compose Preview Cache
+/.idea/composePreview/
+
+# Fastlane (si jamais tu l’utilises)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Tests/coverage
+/test-results
+/coverage
+
+# Crashlytics / Firebase
+/crashlytics-build.properties
+/google-services.json
+
+# Keystore (si jamais tu signes l'appli localement)
+*.jks
+*.keystore
+key.properties
+
+# Misc
+*.apk
+*.ap_
+
+# Jetpack Compose compiler artifacts
+compose-compiler.cache
+compose-compiler-*

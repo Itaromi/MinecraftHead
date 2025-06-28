@@ -11,4 +11,5 @@
     <string name="favorites_progress">Saved favorites: %1$d / %2$d</string>
     <string name="no_favorites">No favorites saved</string>
     <string name="remove">Remove</string>
+    <string name="favorite_added">Added to favorites!</string>
 </resources>

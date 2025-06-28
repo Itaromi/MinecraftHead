@@ -20,6 +20,7 @@ import com.example.minecrafthead.R
 import com.example.minecrafthead.navigation.Screen
 import com.example.minecrafthead.utils.Resource
 import kotlinx.coroutines.launch
+import androidx.compose.ui.platform.LocalContext
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -32,6 +33,7 @@ fun HomeScreen(
     val favorites by viewModel.favorites.collectAsState()
     val snackbarHostState = remember { SnackbarHostState() }
     val scope = rememberCoroutineScope()
+    val context = LocalContext.current
 
     Scaffold(
         topBar = {
@@ -122,7 +124,7 @@ fun HomeScreen(
                                 onClick = {
                                     viewModel.addFavorite(username)
                                     scope.launch {
-                                        snackbarHostState.showSnackbar("Ajouté à vos favoris !")
+                                        snackbarHostState.showSnackbar(context.getString(R.string.favorite_added))
                                     }
                                 },
                                 shape = RoundedCornerShape(8.dp),
